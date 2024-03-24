@@ -9,3 +9,7 @@ text_speech = pyttsx3.init()
 
 # Ask for user input
 answer = input("Enter the text you want to convert to speech: ")
+
+# Convert the text to speech
+text_speech.say(answer)
+text_speech.runAndWait()
